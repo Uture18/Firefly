@@ -40,7 +40,7 @@ const pages = resolvePageToggles({
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Firefly",
+	title: "FanxingUture",
 
 	// 站点副标题
 	subtitle: "Demo site",
@@ -260,7 +260,7 @@ export const siteConfig: SiteConfig = {
 	// ── Bilibili配置 ──────────────────────────────────
 	bilibili: {
 		// 你的 Bilibili 用户 UID
-		uid: "38932988",
+		uid: "28157610",
 	},
 
 	// ── 番组计划bangumi配置 ──────────────────────────────────
