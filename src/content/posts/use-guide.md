@@ -554,7 +554,58 @@ out_line()
 ```
 **<span style="color: red;">注意:</span>** 函数定义时参数列表与返回值可有可无，函数必须`先定义`在调用。
 2.函数的`参数` 与 `返回值`
->在定义函数时,根据需要可以指定参数与返回值
+>在定义函数时,根据需要可以指定形参与返回值  
+如果函数有`形参`则调用时需要填写对应的`实参 ` 。实参与形参**一一对应**
+形参只能在`函数内`使用，形参`无法改变`实参  
 ```python
+#计算长方形面积
+def rectangle_area(l,w):
+    area = l * w
+    return area
+#调用函数 
+r_area = rectangle_area(20,10)
+print(r_area)
+```
+>如果函数需要 **多个返回值** ，可以使用逗号隔开要输出的数据。将这些数据 `打包` 成一个 `元组 `输出。也可以通过 `解包` 分别将返回值赋值给不同变量。
+round(数据，保留小数位数)
+```python
+#计算圆的周长和面积
+def circle_area_len(r):
+    return round(3.14 * r * r), round(2 * 3.14 * r,1)  #组包
 
+al = circle_area_len(10)
+print(al)
+ptint(type(al))
+#解包
+area, len = circle_area_len(10)
+print(area)
+print(len)
+```
+```输出
+(314.0, 62.8)
+<class 'tuple'>
+314.0
+62.8
+```
+2. 函数的说明
+>函数的说明文档(Docstring)是写在函数开头，用三个引号包裹的字符串，用于解释函数的功能、参数、返回值等信息，方便调用者清楚函数的具体作用及细节。
+```python
+#定义一个函数，根据半径，计算圆的周长、面积
+def circle_area_len(r):
+    """
+    该函数用于根据圆的半径，计算圆的面积和圆的周长
+    :param r:圆的半径          #描述函数的参数
+    :return:圆的面积，圆的周长  #描述函数的返回值
+    """
+return 3.14 * r * r, 2 * 3.14 * r
+
+al = circle_area_len(10)
+print(al)
+```
+
+3. 函数的嵌套调用
+>嵌套调用指的是在一个`函数中` ，又调用了`另外的函数`   
+函数调用遵循`栈结构`，最后被调用的函数最先返回LIFO(Last InFirst Out，`后进先出`)
+```python
+def function_a
 ```

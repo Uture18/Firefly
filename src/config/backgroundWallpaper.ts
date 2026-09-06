@@ -73,18 +73,45 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			// 是否启用主页横幅文字
 			enable: true,
 			// 主页横幅主标题
-			title: "Lovely firefly!",
+			title: "凡星 Uture",
 			// 主页横幅主标题字体大小
 			titleSize: "4.5rem",
 			// 主页横幅副标题
 			subtitle: [
-				"In Reddened Chrysalis, I Once Rest",
-				"From Shattered Sky, I Free Fall",
-				"Amidst Silenced Stars, I Deep Sleep",
-				"Upon Lighted Fyrefly, I Soon Gaze",
-				"From Undreamt Night, I Thence Shine",
-				"In Finalized Morrow, I Full Bloom",
-			],
+				"我是一颗平凡的星",
+				"在无垠夜空里，微弱地亮着",
+				"风把我吹散，夜把我淹没",
+				"可我不甘只做沉默的尘埃",
+				"一点微光，也能点燃整片荒原",
+				"凡星虽小，终成星火燎原",
+				"Uture，是属于普通人的未来",
+				"在这里，记录每一次微小的发光",
+				"Even a tiny star can set the night ablaze.",
+				"From Ordinary Dust, I Rise.",
+				"A small star, a big future.",
+				"Shine softly, but never fade.",
+				"Every star was once just a spark.",
+				"夜越深，星越亮",
+				"我借凡星一点光，照亮来时的路",
+				"风起时，我做自己的星辰",
+				"在荒芜的夜空里，种下一颗凡星",
+				"愿你也是那颗，不肯坠落的星",
+				"Uture，写给每一个不甘平凡的人",
+				"未来不是等来的，是一点点亮出来的",
+				"今天默默写下的，都是明天的星火",
+				"普通人的未来，也可以闪闪发光",
+				"在这里，记录一颗凡星的成长轨迹",
+				"一点微光，足以划破最深的夜",
+				"千万颗凡星聚在一起，就是银河",
+				"星火虽小，终将燎原",
+				"别小看任何一次微弱的发光",
+				"所有伟大的光，最初都只是星星之火",
+				"我不过是亿万星辰里，最普通的一颗",
+				"没有耀眼的光，却有不肯熄灭的执着",
+				"在被人遗忘的角落，安静地发着微光",
+				"平凡不是黯淡，是另一种温柔地亮着",
+				"渺小如我，也偏要照亮一寸夜空",
+		],
 			// 主页横幅副标题字体大小
 			subtitleSize: "1.5rem",
 			typewriter: {
@@ -97,7 +124,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				// 删除速度（毫秒）
 				deleteSpeed: 50,
 				// 完全显示后的暂停时间（毫秒）
-				pauseTime: 2000,
+				pauseTime: 300000,
 			},
 			// 是否显示标题下方的链接图标
 			linksEnable: true,
