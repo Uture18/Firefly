@@ -1,6 +1,6 @@
 ---
 title: 【快速入门】ESP32基础
-published: 2026-09-011
+published: 2026-09-11
 description: 自学习的Python记录并总结。为他人提供快速入门笔记
 tags: [快速入门, 教学, ESP32]
 category: 语言基础
