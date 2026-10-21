@@ -3,7 +3,7 @@ title: 【快速入门】STM32基础
 published: 2026-09-10
 description: 自学习的Python记录并总结。为他人提供快速入门笔记
 tags: [快速入门, 教学, Python]
-category: 语言基础
+category: 嵌入式快速入门
 ---
 
 20分钟快速入门Python (本文适合具有C语言基础的学习者)
